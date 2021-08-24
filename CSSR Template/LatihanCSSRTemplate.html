@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en" dir="ltr">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style media="screen">
+            *{
+                box-sizing: border-box;
+            }
+            [class*="col-"]{
+                padding: 15px; float: left; width: 100%;
+            }
+            .header{
+                background: url("Blink Logo.png") black no-repeat center;
+                background-size: 300px 70px;
+                height: 200px;
+            }
+
+            @media only screen and (min-width: 600px) {
+                /* for tablets: */
+                .col-s-1 {width: 8.33%;}
+                .col-s-2 {width: 16.66%;}
+                .col-s-3 {width: 25%;}
+                .col-s-4 {width: 33.33%;}
+                .col-s-5 {width: 41.66%;}
+                .col-s-6 {width: 50%;}
+                .col-s-7 {width: 58.33%;}
+                .col-s-8 {width: 66.66%;}
+                .col-s-9 {width: 75%;}
+                .col-s-10 {width: 83.33%;}
+                .col-s-11 {width: 91.66%;}
+                .col-s-12 {width: 100%;}
+                .header{
+                    background: url("Blackpink Logo.png") black no-repeat center;
+                    background-size: 400px 80px;
+                    height: 200px;
+                }
+            }
+            @media only screen and (min-width: 768px) {
+                /* for desktop */
+                .col-1 {width: 8.33%;}
+                .col-2 {width: 16.66%;}
+                .col-3 {width: 25%;}
+                .col-4 {width: 33.33%;}
+                .col-5 {width: 41.66%;}
+                .col-6 {width: 50%;}
+                .col-7 {width: 58.33%;}
+                .col-8 {width: 66.66%;}
+                .col-9 {width: 75%;}
+                .col-10 {width: 83.33%;}
+                .col-11 {width: 91.66%;}
+                .col-12 {width: 100%;}
+                .header{
+                    background: url("Blackpink Logo.png") black no-repeat center;
+                    background-size: 400px 80px;
+                    height: 200px;
+                }
+            }
+
+            .container{
+                width: 80%;
+                margin: 0 auto;
+            }
+
+            .sidebar ul{
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+                overflow: hidden;
+                background: black;
+            }
+            .sidebar ul li{
+                float: left;
+                width: 100%;
+                border-bottom: 3px solid white;
+            }
+            .sidebar ul li a{
+                display: block;
+                text-decoration: none;
+                color: pink;
+                padding: 15px;
+                text-align: left;
+            }
+
+            .content{ text-align: justify; }
+            .footer{
+                background: pink;
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <!--header mulai-->
+            <div class="col-12 header"></div>
+            <!--akhir header-->
+            <!--awal menu-->
+                <div class="col-3 col-s-5 sidebar">
+                    <ul>
+                        <li><a href="#">Beranda</a></li>
+                        <li><a href="#">Profil</a></li>
+                        <li><a href="#">Kontak Kami</a></li>
+                    </ul>
+                </div>
+            <!--akhir menu-->
+            <!--awal konten-->
+                <div class="col-9 col-s-7 content">
+                    <p>
+                        Black Pink (Hangul: 블랙핑크), ditulis bergaya sebagai BLACKPINK atau BLΛƆKPIИK, adalah sebuah grup penyanyi perempuan Korea Selatan yang dibentuk oleh YG Entertainment, terdiri dari para anggota seperti Jisoo, Jennie, Rosé, dan Lisa.
+
+                        Grup ini debut pada tanggal 8 Agustus 2016, dengan single mereka berjudul Square One, yang menghasilkan "Whistle," lagu nomor satu pertama mereka di Korea Selatan. Single ini juga menghasilkan "Boombayah", single nomor satu pertama mereka di tangga lagu Billboard World Digital Songs, yang mendapat rekor sebagai video musik debut yang paling banyak ditonton oleh artis Korea. Dengan sukses komersial mereka di lima bulan pertama, mereka memperoleh New Artist of the Year di 31st Golden Disc Awards dan 26th Seoul Music Awards.                    </p>
+                </div>
+            <!--akhir konten-->
+            <!--awal footer-->
+                <div class="col-12 footer">
+                    &copy; Copyright by Athallah Zacky Maulana
+                </div>
+            <!--akhir footer-->
+        </div>
+    </body>
+</html>
