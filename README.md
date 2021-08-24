@@ -23,7 +23,7 @@ Small Size
 Large Size
 ![Alt text](https://github.com/zazazaxky-m/Praktikum-CSS-Responsive/blob/master/CSSR%20Image%20Gallery/SS%20CSS%20Image%20Gallery%20Large.PNG)
 Medium Size
-![Alt text]https://github.com/zazazaxky-m/Praktikum-CSS-Responsive/blob/master/CSSR%20Image%20Gallery/SS%20CSS%20Image%20Gallery%20Medium.PNG)
+![Alt text](https://github.com/zazazaxky-m/Praktikum-CSS-Responsive/blob/master/CSSR%20Image%20Gallery/SS%20CSS%20Image%20Gallery%20Medium.PNG)
 Small Size
 ![Alt text](https://github.com/zazazaxky-m/Praktikum-CSS-Responsive/blob/master/CSSR%20Image%20Gallery/SS%20CSS%20Image%20Gallery%20Small.PNG)
 
